@@ -1,0 +1,256 @@
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .first-header {
+        max-width: 802px;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    
+    .first-image {
+        height: 400px;
+    }
+
+    .first-text {
+        left: 42px;
+        bottom: 30px;
+    }
+
+    .about__text {
+        max-width: 690px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .card__image {
+        max-width: 100%;
+    }
+
+    .card__name {
+        font-size: 25px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+
+    .card__link {
+        margin-bottom: 80px;
+    }
+
+    .projects__button {
+        width: 100%;
+    }
+
+    .services__card-image {
+        margin-bottom: 15px;
+    }
+
+    .services__card-text {
+        font-size: 20px;
+    }
+
+    .services__button {
+        width: 100%;
+        margin: 70px 0px 120px 0px;
+    }
+
+    .reviews__examples {
+        column-gap: 10px;
+    }
+    .reviews__examples-name {
+        width: calc(50% - 5px);
+    }
+    .name-width {
+        width: 694px;
+    }
+
+    .reviews__project-name {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .reviews__project-text {
+        max-height: 350px;  
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .gallery__header {
+        top: 80px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .gallery__slides {
+        height: 536px;
+    }
+
+    .gallery__slide-text {
+        bottom: 80px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }    
+
+    .gallery__controls-wrapper,
+    .gallery__slide-text,
+    .gallery__title-wrapper {
+        padding-left: 35px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .section {
+        margin-bottom: 120px;
+    }
+
+    .first-header {
+        max-width: 100%;
+        margin-bottom: 25px;
+        font-size: 30px;
+        line-height: 31.62px;
+    }
+
+    .first-text {
+        left: 15px;
+        bottom: 15px;
+        width: 312px;
+        height: 88px;
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+    
+    .services__cards {
+        row-gap: 60px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .services__card-image {
+        min-height: 240px;
+    }
+
+    .reviews__examples {
+        flex-direction: column;
+    }
+
+    .reviews__examples-name {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        padding: 0px 13px;
+    }
+
+    .first-image {
+        height: 304px;
+    }
+    .header {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+    .about__text {
+        width: 100%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .about__button {
+        width: 100%;
+        min-height: 51px;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 51px;
+    }
+
+    .card__image {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .card__name {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .card__link {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+
+    .projects__button {
+        font-size: 22px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .services__card-text {
+        top: 25px;
+        left: 25px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        border-radius: 3.8px;
+    }
+
+    .services__button {
+        margin: 60px 0px 80px 0px;
+        height: 100px;
+        font-size: 22px;
+        line-height: 100px;
+    }
+
+    .reviews__project-name {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34.15px;
+    }
+
+    .reviews__project-text {
+        max-height: 100%;
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
+    .gallery__title-wrapper {
+        padding-left: 0px;
+    }
+
+    .gallery__header {
+        top: 60px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .gallery__slides {
+        height: 408px;
+    }
+
+    .gallery__slide-text {
+        width: 287px;
+        padding-left: 0px;
+        bottom: 60px;
+        font-size: 19px;
+        line-height: 26px;
+    }    
+
+    .gallery__controls-wrapper {
+        padding: 0px 15px;
+        width: 100%;
+        bottom: 50%;
+        justify-content: space-between;
+    }
+
+}
