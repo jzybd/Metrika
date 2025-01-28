@@ -18,6 +18,25 @@
     padding: 0 15px;
 }
 
+.header__menu {
+    margin-bottom: 70px;
+}
+
+.header__wrapper {
+    display: flex;
+    padding-top: 33px;
+}
+
+.header__logo {
+}
+
+.header__menu-list {
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+}
+
+
 .first-header {
     max-width: 956px;
     margin-bottom: 30px;
@@ -260,5 +279,88 @@
 
 .gallery__control-prev:hover, 
 .gallery__control-next:hover {
+    opacity: 0.5;
+}
+
+.contacts__header {
+    margin-bottom: 75px;
+}
+
+.contacts__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 105px;
+}
+
+.contacts__mail,
+.contacts__tel {
+    padding-bottom: 10px;
+    position: relative;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.contacts__tel:hover,
+.contacts__mail:hover {
+    color: rgba(18, 18, 18, 0.5);
+    border-bottom: 2px solid rgba(18, 18, 18, 0.5); 
+}
+
+.contacts__tel::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url('/img/ic_outline-phone-iphone.png');
+    background-size: cover;
+    top: -40px;
+    width: 24px;
+    height: 24px;
+}
+
+.contacts__mail::before {
+    content: '';
+    position: absolute;
+    display: block;
+    background: url('/img/material-symbols_mail-outline-rounded.png');
+    background-size: cover;
+    top: -35px;
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+
+.footer {
+    background-color: #121212;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.footer__list {
+    margin: 60px 0px 90px 0px;
+}
+
+.footer__list-text {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.footer__list-text:hover {
+    opacity: 0.5;
+}
+
+.footer__description {
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
     opacity: 0.5;
 }
