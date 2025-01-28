@@ -1,2 +1,1 @@
-My first personal work with some Frontend stuff 
-But not unique example of it =)
+Heeeeeey, its my first serious project in my life. Hope its not the last one haha =)
