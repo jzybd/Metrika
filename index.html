@@ -204,14 +204,17 @@
         </div>
     </footer>
 
-    <div class="popup js-popup">
-        <div class="popup__content">
+    <div class="js-popup popup">
+        <div class="js-popup__content popup__content">
+            <button class="popup__close js-popup__close-btn"><img src="/img/radix-icons_cross-2.png" alt=""></button>
             <h1 class="popup__title">Заказать услугу</h1>
             <p class="popup__subtitle">Заполните форму, мы свяжемся с вами в течение суток</p>
-            <input type="" name="Имя">
-            <input type="email" name="Почта" id="">
-            <input type="tel" name="Телефон" id="">
-            <button class="popup__send"></button>
+            <div class="popup__input-wrapper">
+                <input type="" name="Имя" class="popup__input" placeholder="Имя">
+                <input type="email" name="Почта" id="" class="popup__input" placeholder="Электронная почта">
+                <input type="tel" name="Телефон" id="" class="popup__input" placeholder="Номер телефона">
+            </div>
+            <button class="popup__send" type="submit">Отправить</button>
         </div>
     </div>
     <script src="js/gallery.js"></script>
