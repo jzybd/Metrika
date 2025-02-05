@@ -23,6 +23,7 @@
                     <li class="header__list"><a href="#" class="header__list-text">УСЛУГИ</a></li>
                     <li class="header__list"><a href="#" class="header__list-text">КОНТАКТЫ</a></li>
                 </ul>
+                <button class="js-burger-btn burger-btn"></button>
             </div>
         </div>
     </header>
@@ -50,17 +51,17 @@
         <div class="container">
             <div class="projects__header header">ПРОЕКТЫ</div>
             <div class="projects__card">
-                <img src="/img/Rectangle 6.png" alt="" class="card__image">
+                <img src="./img/Rectangle 6.png" alt="" class="card__image">
                 <div class="card__name">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</div>
                 <a href="" class="card__link">Подробнее →</a>
             </div>
             <div class="projects__card">
-                <img src="/img/Rectangle 7.png" alt="" class="card__image">
+                <img src="./img/Rectangle 7.png" alt="" class="card__image">
                 <div class="card__name">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</div>
                 <a href="" class="card__link">Подробнее →</a>
             </div>
             <div class="projects__card">
-                <img src="/img/Rectangle 7 (1).png" alt="" class="card__image">
+                <img src="./img/Rectangle 7 (1).png" alt="" class="card__image">
                 <div class="card__name">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</div>
                 <a href="" class="card__link">Подробнее →</a>
             </div>
@@ -72,22 +73,22 @@
             <div class="services__header header white">УСЛУГИ</div>
             <div class="services__cards">
                 <div class="card">
-                    <img src="/img/Rectangle 2.png" alt="" class="services__card-image">
+                    <img src="./img/Rectangle 2.png" alt="" class="services__card-image">
                     <div class="services__card-text">от 2500₽/м²</div>
                     <p class="card__name white">Планировочное решение</p>
                 </div>
                 <div class="card">
-                    <img src="img/Rectangle 3.png" alt="" class="services__card-image">
+                    <img src="./img/Rectangle 3.png" alt="" class="services__card-image">
                     <div class="services__card-text">от 3000₽/м²</div>
                     <p class="card__name white">Дизайн-проект</p>
                 </div>
                 <div class="card">
-                    <img src="img/Rectangle 4.png" alt="" class="services__card-image">
+                    <img src="./img/Rectangle 4.png" alt="" class="services__card-image">
                     <div class="services__card-text">от 30 000₽/мес</div>
                     <p class="card__name white">Авторский надзор</p>
                 </div>
                 <div class="card">
-                    <img src="img/Rectangle 5.png" alt="" class="services__card-image">
+                    <img src="./img/Rectangle 5.png" alt="" class="services__card-image">
                     <div class="services__card-text">5% от стоимости</div>
                     <p class="card__name white">Комплектация </p>
                 </div>
@@ -147,25 +148,25 @@
             </div>
             <div class="gallery__slides">
                 <div class="gallery__slide gallery__slide_active">
-                    <img src="/img/Rectangle 10.png" alt="" class="gallery__slide-image">
+                    <img src="./img/Rectangle 10.png" alt="" class="gallery__slide-image">
                     <div class="container">
                         <div class="gallery__slide-text">Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</div>
                     </div>
                 </div>
                 <div class="gallery__slide">
-                    <img src="/img/Rectangle 10 (1).png" alt="" class="gallery__slide-image">
+                    <img src="./img/Rectangle 10 (1).png" alt="" class="gallery__slide-image">
                     <div class="container">
                         <div class="gallery__slide-text">Проект  гостиной в ЖК Маяк</div>
                     </div>
                 </div>
                 <div class="gallery__slide">
-                    <img src="/img/Rectangle 10 (2).png" alt="" class="gallery__slide-image">
+                    <img src="./img/Rectangle 10 (2).png" alt="" class="gallery__slide-image">
                     <div class="container">
                         <div class="gallery__slide-text">Визуализация кухни-гостиной в частном доме</div>
                     </div>
                 </div>
                 <div class="gallery__slide">
-                    <img src="/img/Rectangle 10 (3).png" alt="" class="gallery__slide-image">
+                    <img src="./img/Rectangle 10 (3).png" alt="" class="gallery__slide-image">
                     <div class="container">
                         <div class="gallery__slide-text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</div>
                     </div>
@@ -174,10 +175,10 @@
             <div class="container">
                 <div class="gallery__controls-wrapper">
                     <button class="gallery__control-prev">
-                        <img src="/img/ic_baseline-arrow-back-ios-new.png">
+                        <img src="./img/ic_baseline-arrow-back-ios-new.png">
                     </button>
                     <button class="gallery__control-next">
-                        <img src="/img/next.png">
+                        <img src="./img/next.png">
                     </button>
                 </div>
             </div>
@@ -206,7 +207,7 @@
 
     <div class="js-popup popup">
         <div class="js-popup__content popup__content">
-            <button class="popup__close js-popup__close-btn"><img src="/img/radix-icons_cross-2.png" alt=""></button>
+            <button class="popup__close js-popup__close-btn"><img src="./img/radix-icons_cross-2.png" alt=""></button>
             <h1 class="popup__title">Заказать услугу</h1>
             <p class="popup__subtitle">Заполните форму, мы свяжемся с вами в течение суток</p>
             <div class="popup__input-wrapper">
@@ -217,7 +218,25 @@
             <button class="popup__send" type="submit">Отправить</button>
         </div>
     </div>
-    <script src="js/gallery.js"></script>
-    <script src="js/popup.js"></script>
+
+    <div class="js-burger burger">
+        <div class="js-burger__content burger__content">
+            <img src="./img/Метрика.png" alt="Лого метрика" class="burger__logo">
+            <ul class="burger__menu-list">
+                <li class="burger__list"><a href="#" class="burger__list-text">О НАС</a></li>
+                <li class="burger__list"><a href="#" class="burger__list-text">ПРОЕКТЫ</a></li>
+                <li class="burger__list"><a href="#" class="burger__list-text">УСЛУГИ</a></li>
+                <li class="burger__list"><a href="#" class="burger__list-text">КОНТАКТЫ</a></li>
+            </ul>
+            <div class="burger__contacts">
+                <h3 class="burger__contacts-header"></h1>
+                <a href="tel:+79358954535" class="burger__contacts-tel">+7 935  895-45-35</a>
+                <a href="mailto:hello@mail.com" class="burger__contacts-mail">hello@mail.com</a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/popup.js"></script>
+    <script src="./js/burger.js"></script>
 </body>
 </html>
