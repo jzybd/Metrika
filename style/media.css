@@ -213,7 +213,7 @@
         right: 40px;
         width: 35px;
         height: 35px;
-        background-image: url("/img/Group\ 22.png");
+        background-image: url("./img/Group\ 22.png");
         background-repeat: no-repeat;
         background-size: contain;
         display: block;
@@ -221,7 +221,7 @@
 
     .burger-btn_open {
         z-index: 100;
-        background-image: url("/img/radix-icons_cross-2.png");   
+        background-image: url("./img/radix-icons_cross-2.png");   
     }
     
     .burger__content {
